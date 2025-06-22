@@ -32,7 +32,7 @@ function addData() {
       id: 7,
       name: "keshav",
       age:"23",
-      profession: "tester",
+      profession: "software developer",
       };
      arr.push(newEmployee);
      console.log(arr);
@@ -53,7 +53,8 @@ function concatenateArray() {
    const newEmployees = [
     { id: 5, name: "alice", age: "22", profession: "designer" },
     { id: 6, name: "bob", age: "25", profession: "manager" },
-    { id: 7, name: "eve", age: "21", profession: "developer" },
+    // { id: 7, name: "eve", age: "21", profession: "developer" },
+    {id: 8, name: "lisa", age: "26", profession: "manager"}
   ];
   const combined = arr.concat(newEmployees);
   console.log(combined);
